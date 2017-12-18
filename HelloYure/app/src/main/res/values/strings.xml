@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hello Yure</string>
+
+    <string name="hello_world">Hello</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tela2">Tela2</string>
+    <string name="text_field_first_name">Type your first name:</string>
+    <string name="text_field_last_name">Type your last name:</string>
+    <string name="button_send">Send</string>
+    <string name="button_clean">Clean</string>
+    <string name="text_result">Result:</string>
+    <string name="button_tela2">Let is go Tela 2</string>
+</resources>

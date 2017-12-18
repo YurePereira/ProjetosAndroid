@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.francisco.projetofinal.InserirActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lbNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome" />
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/lbCPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CPF" />
+
+        <EditText
+            android:id="@+id/txtCPF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="77dp" />
+
+        <TextView
+            android:id="@+id/lbIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Idade" />
+
+        <EditText
+            android:id="@+id/txtIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberDecimal"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <TextView
+            android:id="@+id/lbTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefone" />
+
+        <EditText
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="199dp" />
+
+        <TextView
+            android:id="@+id/lbEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="E-mail" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:text=""
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="261dp" />
+
+        <Button
+            android:id="@+id/btnInserir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inserir dados"
+            android:layout_gravity="center_vertical|center_horizontal"
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="324dp" />
+
+        <Button
+            android:id="@+id/btnListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Listar Registros"
+            tools:layout_editor_absoluteX="106dp"
+            tools:layout_editor_absoluteY="384dp" />
+
+        <Button
+            android:id="@+id/btnVoltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:text="Voltar"
+            tools:layout_editor_absoluteX="136dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

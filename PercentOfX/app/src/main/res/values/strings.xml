@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Percent Of X</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_result">Result</string>
+    <string name="label_what_is">Type percent:</string>
+    <string name="label_of">Type value:</string>
+    <string name="button_send">Send</string>
+    <string name="button_clean">Clean</string>
+    <string name="text_result">Result:</string>
+</resources>
